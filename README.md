@@ -1,21 +1,9 @@
-##### WTF - coTenFrontend!?
-# Week VIII (8.07.2019) 
+# wtf-gulp-starter
 
+`npm install -g gulp-cli`
 
+`npm install`
 
-### The technologies used this week are:
-* Prefix
-* Google fonts
-* Git branches
-* Markdown
-* JS - tables
-* JS - loops
-  * for
-  * while
-  * while do
-  * for in
-  * for of
-* JS - cookies
+`gulp`
 
-
-![WTF - coTenFrontend!?](https://edu.devstyle.pl/wp-content/uploads/2019/03/wtf-wpidea.png) 
+To publish your page using github pages use `npm run deploy`
