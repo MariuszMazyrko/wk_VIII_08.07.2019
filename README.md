@@ -10,6 +10,11 @@
 * Markdown
 * JS - tables
 * JS - loops
+  * for
+  * while
+  * while do
+  * for in
+  * for of
 * JS - cookies
 
 
