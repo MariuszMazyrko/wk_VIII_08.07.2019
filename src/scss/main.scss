@@ -23,10 +23,10 @@ h1 {
 }
 
 .editor {
-  display: block;
-  position: relative;
-  margin-left: 40%;
-  margin-top: 15%;
+  height: 50em;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
 .editor__box {
@@ -37,14 +37,17 @@ h1 {
     sans-serif;
 }
 
-.text__box {
+.text__box,
+.text__box--js {
   height: 250px;
   width: 450px;
+  margin-bottom: 20px;
   border-radius: 15px;
   resize: none;
   font-size: 20px;
   padding-left: 30px;
-  line-height: 60px;
+  padding-top: 20px;
+  line-height: 0px;
 }
 
 
@@ -53,16 +56,19 @@ h1 {
 
 .button,
 .button__js {
-  margin-left: 220px;
-  margin-top: 20px;
+  display: flex;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: -115px;
 }
 
 .button__load,
 .button__load--js {
   display: inline-block;
+  border-radius: 10px;
   border: none;
   padding: 1rem 2rem;
-  margin: 0 20px 0 0;
+  margin: 0 30px 0 0;
   text-decoration: none;
   background: #0069ed;
   color: #ffffff;
@@ -99,6 +105,7 @@ button:focus {
 .button__save--js {
   display: inline-block;
   border: none;
+  border-radius: 10px;
   padding: 1rem 2rem;
   margin: 0;
   text-decoration: none;
