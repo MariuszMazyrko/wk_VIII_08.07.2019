@@ -12,5 +12,5 @@
 * JS - loops
 * JS - cookies
 
-[Figma design](https://www.figma.com/file/q2ben5erKdPiPtsvOeNYDb/Product-Design-Kit-1.0-3.12.2018)
+[-- Figma design project--](https://www.figma.com/file/q2ben5erKdPiPtsvOeNYDb/Product-Design-Kit-1.0-3.12.2018)
 ![WTF - coTenFrontend!?](https://edu.devstyle.pl/wp-content/uploads/2019/03/wtf-wpidea.png) 
