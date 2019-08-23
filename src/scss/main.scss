@@ -13,7 +13,7 @@ html {
 
 body {
   color: $yellow;
-  background: $violet;
+  background: white;
   height: 50em;
   min-width: 500px;
   display: flex;
@@ -29,7 +29,7 @@ body {
       .text__box {
         display: block;
         position: relative;
-        color: white;
+        color: black;
         font-family: Arial, sans-serif;
       }
     }
@@ -37,14 +37,14 @@ body {
     h1 {
       letter-spacing: 5px;
       line-height: 0px;
-      color: #4bf7c99a;
+      color: black;
       font-family: 'Roboto',
         sans-serif;
       font-size: 18px;
     }
 
     .logo__text {
-      color: #fff;
+      color: black;
       font-size: 44px;
       border: -10px;
       margin-top: 28px;
@@ -74,12 +74,12 @@ body {
       .button__load--js {
         display: inline-block;
         border-radius: 10px;
-        border: none;
+        border: 2px solid silver;
         padding: 1rem 2rem;
         margin: 0 30px 0 0;
         text-decoration: none;
-        background: #0069ed;
-        color: #ffffff;
+        background: none;
+        color: black;
         font-family: sans-serif;
         font-size: 1.25rem;
         line-height: 1;
@@ -93,7 +93,7 @@ body {
 
       .button__load--js:hover,
       button:focus {
-        background: #0053ba;
+        background: silver;
       }
 
       .button__load--js:focus {
@@ -109,13 +109,14 @@ body {
 
       .button__save--js {
         display: inline-block;
-        border: none;
-        border-radius: 10px;
+        border: 2px solid silver;
+
+        border-radius: 8px;
         padding: 1rem 2rem;
         margin: 0;
         text-decoration: none;
-        background: #1dd1a1;
-        color: #ffffff;
+        background: white;
+        color: black;
         font-family: sans-serif;
         font-size: 1.25rem;
         line-height: 1;
@@ -128,7 +129,7 @@ body {
 
       .button__save--js:hover,
       button:focus {
-        background: #10ac84;
+        background: silver;
       }
 
       .button__save--js:focus {
