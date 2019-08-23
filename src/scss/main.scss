@@ -15,6 +15,7 @@ body {
   color: $yellow;
   background: $violet;
   height: 50em;
+  min-width: 500px;
   display: flex;
   align-items: center;
   justify-content: center
@@ -23,122 +24,115 @@ body {
 
 
 .editor {
-  &__box {
-    display: block;
-    position: relative;
-    color: white;
-    font-family: Arial, sans-serif;
+  .editor__box {
+    .form__wrapper {
+      .text__box {
+        display: block;
+        position: relative;
+        color: white;
+        font-family: Arial, sans-serif;
+      }
+    }
+
+    h1 {
+      letter-spacing: 5px;
+      line-height: 26px;
+      font-family: 'Roboto',
+        sans-serif;
+    }
+
+    #text__box {
+      height: 250px;
+      width: 450px;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      // resize: none;
+      font-size: 20px;
+      padding-left: 30px;
+      padding: 20px;
+      line-height: 20px;
+    }
+
+    // BUTTON
+    /* Buttons styles LOAD */
+
+    .button__js {
+      display: flex;
+      position: absolute;
+      margin-left: 210px;
+      bottom: 80px;
+
+      .button__load--js {
+        display: inline-block;
+        border-radius: 10px;
+        border: none;
+        padding: 1rem 2rem;
+        margin: 0 30px 0 0;
+        text-decoration: none;
+        background: #0069ed;
+        color: #ffffff;
+        font-family: sans-serif;
+        font-size: 1.25rem;
+        line-height: 1;
+        cursor: pointer;
+        text-align: center;
+        transition: background 250ms ease-in-out,
+          transform 150ms ease;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+      }
+
+      .button__load--js:hover,
+      button:focus {
+        background: #0053ba;
+      }
+
+      .button__load--js:focus {
+        outline: 1px solid #fff;
+        outline-offset: -4px;
+      }
+
+      .button__load--js:active {
+        transform: scale(0.99);
+      }
+
+      /* Buttons styles SAVE */
+
+      .button__save--js {
+        display: inline-block;
+        border: none;
+        border-radius: 10px;
+        padding: 1rem 2rem;
+        margin: 0;
+        text-decoration: none;
+        background: #1dd1a1;
+        color: #ffffff;
+        font-family: sans-serif;
+        font-size: 1.25rem;
+        line-height: 1;
+        cursor: pointer;
+        text-align: center;
+        transition: background 250ms ease-in-out, transform 150ms ease;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+      }
+
+      .button__save--js:hover,
+      button:focus {
+        background: #10ac84;
+      }
+
+      .button__save--js:focus {
+        outline: 1px solid #fff;
+        outline-offset: -4px;
+      }
+
+      .button__save--js:active {
+        transform: scale(0.99);
+      }
+
+      /* Button styles end */
+
+    }
   }
-
-  h1 {
-    letter-spacing: 5px;
-    line-height: 26px;
-    font-family: 'Roboto',
-      sans-serif;
-  }
-
-  #text__box {
-    height: 250px;
-    width: 450px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    // resize: none;
-    font-size: 20px;
-    padding-left: 30px;
-    padding: 20px;
-    line-height: 20px;
-  }
 }
-
-
-// BUTTON
-/* Buttons styles LOAD */
-
-.button__js {
-  display: flex;
-  position: absolute;
-  margin-left: 210px;
-  top: 370px;
-}
-
-.button__load,
-.button__load--js {
-  display: inline-block;
-  border-radius: 10px;
-  border: none;
-  padding: 1rem 2rem;
-  margin: 0 30px 0 0;
-  text-decoration: none;
-  background: #0069ed;
-  color: #ffffff;
-  font-family: sans-serif;
-  font-size: 1.25rem;
-  line-height: 1;
-  cursor: pointer;
-  text-align: center;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-
-.button__load,
-.button__load--js:hover,
-button:focus {
-  background: #0053ba;
-}
-
-.button__load,
-.button__load--js:focus {
-  outline: 1px solid #fff;
-  outline-offset: -4px;
-}
-
-.button__load,
-.button__load--js:active {
-  transform: scale(0.99);
-}
-
-
-
-
-
-/* Buttons styles SAVE */
-
-.button__save,
-.button__save--js {
-  display: inline-block;
-  border: none;
-  border-radius: 10px;
-  padding: 1rem 2rem;
-  margin: 0;
-  text-decoration: none;
-  background: #1dd1a1;
-  color: #ffffff;
-  font-family: sans-serif;
-  font-size: 1.25rem;
-  line-height: 1;
-  cursor: pointer;
-  text-align: center;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-
-.button__save,
-.button__save--js:hover,
-button:focus {
-  background: #10ac84;
-}
-
-.button__save,
-.button__save--js:focus {
-  outline: 1px solid #fff;
-  outline-offset: -4px;
-}
-
-.button__save,
-.button__save--js:active {
-  transform: scale(0.99);
-}
-
-/* Button styles end */
