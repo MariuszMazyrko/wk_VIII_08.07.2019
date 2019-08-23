@@ -36,9 +36,18 @@ body {
 
     h1 {
       letter-spacing: 5px;
-      line-height: 26px;
+      line-height: 0px;
+      color: #4bf7c99a;
       font-family: 'Roboto',
         sans-serif;
+      font-size: 18px;
+    }
+
+    .logo__text {
+      color: #fff;
+      font-size: 44px;
+      border: -10px;
+      margin-top: 28px;
     }
 
     #text__box {
