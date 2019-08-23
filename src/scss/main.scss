@@ -14,52 +14,51 @@ html {
 body {
   color: $yellow;
   background: $violet;
-}
-
-h1 {
-  letter-spacing: 3px;
-  font-family: 'Roboto',
-    sans-serif;
-}
-
-.editor {
   height: 50em;
   display: flex;
   align-items: center;
   justify-content: center
 }
 
-.editor__box {
-  display: block;
-  position: relative;
-  color: white;
-  font-family: Arial,
-    sans-serif;
-}
 
-.text__box,
-.text__box--js {
-  height: 250px;
-  width: 450px;
-  margin-bottom: 20px;
-  border-radius: 15px;
-  resize: none;
-  font-size: 20px;
-  padding-left: 30px;
-  padding-top: 20px;
-  line-height: 0px;
+
+.editor {
+  &__box {
+    display: block;
+    position: relative;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    letter-spacing: 5px;
+    line-height: 26px;
+    font-family: 'Roboto',
+      sans-serif;
+  }
+
+  #text__box {
+    height: 250px;
+    width: 450px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    // resize: none;
+    font-size: 20px;
+    padding-left: 30px;
+    padding: 20px;
+    line-height: 20px;
+  }
 }
 
 
 // BUTTON
 /* Buttons styles LOAD */
 
-.button,
 .button__js {
   display: flex;
   position: absolute;
-  margin-left: 100px;
-  margin-top: -115px;
+  margin-left: 210px;
+  top: 370px;
 }
 
 .button__load,
@@ -98,6 +97,10 @@ button:focus {
 .button__load--js:active {
   transform: scale(0.99);
 }
+
+
+
+
 
 /* Buttons styles SAVE */
 

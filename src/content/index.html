@@ -11,19 +11,18 @@
 </head>
 
 <body>
-  <section class="editor">
-    <section class="editor__box">
+  <main class="editor">
+    <form class="editor__box">
       <h1>MY<br>SIMPLE<br>EDITOR</h1>
-      <textarea class="text__box, text__box--js" name="box" rows="5" cols="33">
-Lorem ipsum dolor sit amet...
-</textarea>
-
-    </section>
-    <section class="button, button__js">
-      <button class="button__load, button__load--js" type="button__load">load</button>
-      <button class="button__save, button__save--js" type="button">save</button>
-    </section>
-  </section>
+      <p class="form__wrapper">
+        <textarea id="text__box" class="text__box--js"></textarea>
+      </p>
+      <section class="button__js">
+        <button class="button__load--js" type="button__load">load</button>
+        <button class="button__save--js" type="button__save">save</button>
+      </section>
+    </form>
+  </main>
 
 
 
