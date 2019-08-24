@@ -332,103 +332,109 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.editor .editor__box {
-  /* Buttons styles LOAD */ }
-  .editor .editor__box .form__wrapper .text__box {
-    display: block;
-    position: relative;
-    color: white;
-    font-family: Arial, sans-serif; }
-  .editor .editor__box h1 {
-    letter-spacing: 5px;
-    line-height: 0px;
-    color: #4bf7c99a;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px; }
-  .editor .editor__box .logo__text {
-    color: #fff;
-    font-size: 44px;
-    border: -10px;
-    margin-top: 28px; }
-  .editor .editor__box #text__box {
-    height: 250px;
-    width: 450px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    font-size: 20px;
-    padding-left: 30px;
-    padding: 20px;
-    line-height: 20px; }
-  .editor .editor__box .button__js {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    margin-left: 210px;
-    bottom: 320px;
-    /* Buttons styles SAVE */
-    /* Button styles end */ }
-    .editor .editor__box .button__js .button__load--js {
-      display: inline-block;
-      border-radius: 10px;
-      border: none;
-      padding: 1rem 2rem;
-      margin: 0 30px 0 0;
-      text-decoration: none;
-      background: #0069ed;
-      color: #ffffff;
-      font-family: sans-serif;
-      font-size: 1.25rem;
-      line-height: 1;
-      cursor: pointer;
-      text-align: center;
-      -webkit-transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
-      transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
-      -o-transition: background 250ms ease-in-out, transform 150ms ease;
-      transition: background 250ms ease-in-out, transform 150ms ease;
-      transition: background 250ms ease-in-out, transform 150ms ease, -webkit-transform 150ms ease;
-      -webkit-appearance: none;
-      -moz-appearance: none; }
-    .editor .editor__box .button__js .button__load--js:hover,
-    .editor .editor__box .button__js button:focus {
-      background: #0053ba; }
-    .editor .editor__box .button__js .button__load--js:focus {
-      outline: 1px solid #fff;
-      outline-offset: -4px; }
-    .editor .editor__box .button__js .button__load--js:active {
-      -webkit-transform: scale(0.99);
-          -ms-transform: scale(0.99);
-              transform: scale(0.99); }
-    .editor .editor__box .button__js .button__save--js {
-      display: inline-block;
-      border: none;
-      border-radius: 10px;
-      padding: 1rem 2rem;
-      margin: 0;
-      text-decoration: none;
-      background: #1dd1a1;
-      color: #ffffff;
-      font-family: sans-serif;
-      font-size: 1.25rem;
-      line-height: 1;
-      cursor: pointer;
-      text-align: center;
-      -webkit-transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
-      transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
-      -o-transition: background 250ms ease-in-out, transform 150ms ease;
-      transition: background 250ms ease-in-out, transform 150ms ease;
-      transition: background 250ms ease-in-out, transform 150ms ease, -webkit-transform 150ms ease;
-      -webkit-appearance: none;
-      -moz-appearance: none; }
-    .editor .editor__box .button__js .button__save--js:hover,
-    .editor .editor__box .button__js button:focus {
-      background: #10ac84; }
-    .editor .editor__box .button__js .button__save--js:focus {
-      outline: 1px solid #fff;
-      outline-offset: -4px; }
-    .editor .editor__box .button__js .button__save--js:active {
-      -webkit-transform: scale(0.99);
-          -ms-transform: scale(0.99);
-              transform: scale(0.99); }
+.editor {
+  position: relative; }
+  .editor .editor__box {
+    /* Buttons styles LOAD */ }
+    .editor .editor__box .form__wrapper .text__box {
+      display: block;
+      position: relative;
+      color: white;
+      font-family: Arial, sans-serif; }
+    .editor .editor__box h1 {
+      letter-spacing: 5px;
+      line-height: 0px;
+      color: #4bf7c99a;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px; }
+    .editor .editor__box .logo__text {
+      color: #fff;
+      font-size: 44px;
+      border: -10px;
+      margin-top: 28px; }
+    .editor .editor__box #text__box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+      height: 250px;
+      width: 450px;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      font-size: 20px;
+      padding-left: 30px;
+      padding: 20px;
+      line-height: 20px; }
+    .editor .editor__box .button__js {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      margin-left: 210px;
+      bottom: -60px;
+      /* Buttons styles SAVE */
+      /* Button styles end */ }
+      .editor .editor__box .button__js .button__load--js {
+        display: inline-block;
+        border-radius: 10px;
+        border: none;
+        padding: 1rem 2rem;
+        margin: 0 30px 0 0;
+        text-decoration: none;
+        background: #0069ed;
+        color: #ffffff;
+        font-family: sans-serif;
+        font-size: 1.25rem;
+        line-height: 1;
+        cursor: pointer;
+        text-align: center;
+        -webkit-transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
+        transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
+        -o-transition: background 250ms ease-in-out, transform 150ms ease;
+        transition: background 250ms ease-in-out, transform 150ms ease;
+        transition: background 250ms ease-in-out, transform 150ms ease, -webkit-transform 150ms ease;
+        -webkit-appearance: none;
+        -moz-appearance: none; }
+      .editor .editor__box .button__js .button__load--js:hover,
+      .editor .editor__box .button__js button:focus {
+        background: #0053ba; }
+      .editor .editor__box .button__js .button__load--js:focus {
+        outline: 1px solid #fff;
+        outline-offset: -4px; }
+      .editor .editor__box .button__js .button__load--js:active {
+        -webkit-transform: scale(0.99);
+            -ms-transform: scale(0.99);
+                transform: scale(0.99); }
+      .editor .editor__box .button__js .button__save--js {
+        display: inline-block;
+        border: none;
+        border-radius: 10px;
+        padding: 1rem 2rem;
+        margin: 0;
+        text-decoration: none;
+        background: #1dd1a1;
+        color: #ffffff;
+        font-family: sans-serif;
+        font-size: 1.25rem;
+        line-height: 1;
+        cursor: pointer;
+        text-align: center;
+        -webkit-transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
+        transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
+        -o-transition: background 250ms ease-in-out, transform 150ms ease;
+        transition: background 250ms ease-in-out, transform 150ms ease;
+        transition: background 250ms ease-in-out, transform 150ms ease, -webkit-transform 150ms ease;
+        -webkit-appearance: none;
+        -moz-appearance: none; }
+      .editor .editor__box .button__js .button__save--js:hover,
+      .editor .editor__box .button__js button:focus {
+        background: #10ac84; }
+      .editor .editor__box .button__js .button__save--js:focus {
+        outline: 1px solid #fff;
+        outline-offset: -4px; }
+      .editor .editor__box .button__js .button__save--js:active {
+        -webkit-transform: scale(0.99);
+            -ms-transform: scale(0.99);
+                transform: scale(0.99); }
 
 /*# sourceMappingURL=main.css.map */
