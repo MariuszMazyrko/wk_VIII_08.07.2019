@@ -1,6 +1,7 @@
 @import "_normalize";
 @import "_variables";
 
+
 html {
   box-sizing: border-box;
 }
@@ -24,6 +25,8 @@ body {
 
 
 .editor {
+  position: relative;
+
   .editor__box {
     .form__wrapper {
       .text__box {
@@ -51,6 +54,8 @@ body {
     }
 
     #text__box {
+      display: flex;
+      position: relative;
       height: 250px;
       width: 450px;
       margin-bottom: 20px;
@@ -69,7 +74,7 @@ body {
       display: flex;
       position: absolute;
       margin-left: 210px;
-      bottom: 320px;
+      bottom: -60px;
 
       .button__load--js {
         display: inline-block;
