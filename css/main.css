@@ -365,7 +365,7 @@ body {
     display: flex;
     position: absolute;
     margin-left: 210px;
-    bottom: 80px;
+    bottom: 320px;
     /* Buttons styles SAVE */
     /* Button styles end */ }
     .editor .editor__box .button__js .button__load--js {
